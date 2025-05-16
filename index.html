@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medrath Pets Farm - A Haven for Animals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="css/style.css" />
+
+     <style>
+  .video-gallery {
+    display: flex;
+    gap: 16px;           /* space between videos */
+    justify-content: center;
+    flex-wrap: nowrap;   /* keep in one row */
+    margin-top: 20px;
+    margin-left: 570px;
+  }
+  .video-card {
+    position: relative;
+    width: 320px;        /* fixed width for each video */
+    height: 180px;       /* 16:9 ratio */
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    flex-shrink: 0;      /* prevent shrinking */
+  }
+  .video-card iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="/assets/logo" alt="Medrath Pets Farm Logo">
+                <h1>Medrath Pets Farm</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#animals">Our Animals</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#youtube">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to<br> Medrath Pets Farm</h1>
+                <p>A peaceful haven where animals thrive and visitors connect with nature</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Plan Your Visit</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            Scroll Down
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About Medrath Pet Farm</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/assets/owner.jpg" alt="Medrath Pet Farm">
+            </div>
+            <div class="about-text">
+                <p>Medrath Pet Farm is a peaceful sanctuary nestled in the heart of the countryside, dedicated to providing a safe and loving home for a diverse range of animals. The farm is home to more than 25 species, each cared for with compassion and expertise.</p>
+                <p>Whether you're visiting with family, school groups, or as an animal enthusiast, Medrath Pet Farm offers an immersive experience that brings people closer to nature and the animal kingdom. We believe in education through interaction, allowing visitors to learn about animal behavior, sustainable farming practices, and the importance of responsible pet care.</p>
+                <div class="certifications">
+                    <h3>Highlights </h3>
+                    <div class="certification-item">
+                        <i class="fas fa-leaf"></i>
+                        <div>
+                            <h4>Eco-Friendly</h4>
+                        </div>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-award"></i>
+                        <div>
+                            <h4>Community Engagement</h4>
+                        </div>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-paw"></i>
+                        <div>
+                            <h4>Peaceful escape into nature and animal companionship</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Animals Section -->
+    <section id="animals" class="animals">
+        <div class="container">
+            <h2 class="section-title">Our Wonderful Animals</h2>
+            <p class="text-center">Meet the stars of Medrath Pets Farm! Each animal has a unique personality and story.</p>
+            
+            <div class="animal-cards">
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav1.jpg" alt="Bella">
+                    <div class="animal-card-content">
+                        <h3>Persian Cat</h3>
+
+                        
+                    </div>
+                </div>
+                
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav2.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>Rottweiler</h3>
+                       
+                        
+                    </div>
+                </div>
+                
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav3.jpg" alt="Ruby">
+                    <div class="animal-card-content">
+                        <h3>Hamster</h3>
+                        
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav4.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>Fancy Mice</h3>
+                       
+                        
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav10.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>Labrador</h3>
+                       
+                        
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav6.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>Pigeon</h3>
+                       
+                        
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav7.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>Rabbit</h3>
+                       
+                        
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav8.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>Emu</h3>
+                       
+                        
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="/assets/images/gallery/fav9.jpg" alt="Max">
+                    <div class="animal-card-content">
+                        <h3>German Shepherd</h3>
+                       
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   <!-- Gallery Section -->
+<section id="gallery" class="gallery">
+  <div class="container">
+    <h2 class="section-title">Our Farm Gallery</h2>
+    <p class="text-center">Take a visual tour through our beautiful farm and its adorable inhabitants.</p>
+
+    <div class="single-image-gallery">
+      <button id="view-gallery-btn" class="btn-primary">View Full Gallery</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.getElementById('view-gallery-btn').addEventListener('click', () => {
+    window.location.href = '/html/gallery.html';
+  });
+</script>
+
+
+
+    <!-- YouTube Section -->
+    <section id="youtube" class="youtube">
+        <div class="container">
+            <h2 class="section-title">Watch Our Farm Adventures</h2>
+            <p class="text-center">Join us on YouTube for weekly farm updates, animal care tips, and behind-the-scenes glimpses of farm life.</p>
+            
+            <div class="youtube-container">
+                <div class="channel-banner">
+                    <div class="channel-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>Medrath Pets Farm Channel</h3>
+                    <p>Subscribe to our channel for weekly videos on farm life, animal care tips, and more!</p>
+                    <a href="https://www.youtube.com/@medrathpetsfarm1322" class="channel-button">Visit Our Channel</a>
+                </div>
+                
+                <h3>Featured Videos</h3>
+                <div class="featured-videos">
+
+                   <!-- Container to hold multiple video cards -->
+
+
+<div class="video-gallery">
+  <a href="https://youtu.be/IdA4--mHNGg?si=CUSgrYYh2heSl90L" target="_blank" class="video-card">
+    <iframe src="https://www.youtube.com/embed/IdA4--mHNGg?autoplay=1&mute=1&controls=1&loop=1&playlist=IdA4--mHNGg" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </a>
+  <a href="https://youtu.be/OjAutmMFjD0?si=CL3x5a249i4w9j11" target="_blank" class="video-card">
+    <iframe src="https://www.youtube.com/embed/OjAutmMFjD0?autoplay=1&mute=1&controls=1&loop=1&playlist=OjAutmMFjD0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </a>
+  <a href="https://youtu.be/lyjmunhQNXM?si=a74YfaPvCzhG8UAB" target="_blank" class="video-card">
+    <iframe src="https://www.youtube.com/embed/lyjmunhQNXM?autoplay=1&mute=1&controls=1&loop=1&playlist=lyjmunhQNXM" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </a>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Our Farm</h2>
+            <p class="text-center">We'd love to welcome you to Medrath Pets Farm. Get in touch to plan your visit or ask any questions.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+              <div class="contact-item">
+  <div class="contact-icon">
+    <i class="fas fa-map-marker-alt"></i>
+  </div>
+  <div>
+    <h4>Location</h4>
+    <p>
+      <a href="https://maps.app.goo.gl/gyRxQWaeck9Lz6VP6" target="_blank" rel="noopener noreferrer">
+        Medrath Pets Farm<br>Mulanthuruthy School Rd, Mulanthuruthy, Kerala 682314
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="contact-item">
+  <div class="contact-icon">
+    <i class="fas fa-phone-alt"></i>
+  </div>
+  <div>
+    <h4>Phone</h4>
+    <p>
+      <a href="tel:+916282037791">+91 62820 37791</a>
+    </p>
+  </div>
+</div>
+
+<div class="contact-item">
+  <div class="contact-icon">
+    <i class="fas fa-envelope"></i>
+  </div>
+  <div>
+    <h4>Email</h4>
+    <p>
+      <a href="mailto:aamjalroshan@gmail.com">aamjalroshan@gmail.com</a>
+    </p>
+  </div>
+</div>
+
+<div class="contact-item">
+  <div class="contact-icon">
+    <i class="fas fa-star"></i>
+  </div>
+  <div>
+    <h4>Leave a Review</h4>
+    <p>
+      <a href="https://g.page/r/CczKwWG7MkQREBE/review" target="_blank" rel="noopener noreferrer">
+        Google Reviews
+      </a>
+    </p>
+  </div>
+</div>
+
+
+<div class="contact-item">
+    <div class="contact-icon">
+        <i class="fas fa-clock"></i>
+    </div>
+    <div>
+        <h4>Opening Hours</h4>
+        <p>Mon - Sat: 9:00 AM – 6:00 PM<br>Sun: Closed</p>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Medrath Pets Farm. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optional Scripts -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
