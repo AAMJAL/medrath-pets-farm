@@ -385,7 +385,7 @@
         }
 
         .single-image-gallery {
-  background-image: url('assets/old-man-7901064_1920.jpg');
+  background-image: url('../assets/old-man-7901064_1920.jpg');
   background-size: cover;
   background-position: center;
   height: 300px;
